@@ -125,20 +125,20 @@ console.log(txt12);
 // Аргументы:  dogname, age, cups, tea
 // Параметры: myDog, 4, guests, 'Earl Grey'
 
-// function dogYears(dogname, age){
-//     let years = age * 3;
-//     console.log(dogName + ' is ' + years + ' years old');
-// }
-// let myDog = 'Scrim';
-// dogYears(myDog, 4);
+function dogYears(dogname, age){
+    let years = age * 3;
+    console.log(dogname + ' is ' + years + ' years old');
+}
+let myDog = 'Scrim';
+dogYears(myDog, 4);
 
-// function makeTea (cups, tea){
-//     console.log('Breawing ' + cups + ' cups of' + tea);
-// }
-// let guests = 2;
-// makeTea(guests, 'Earl Grey');
+function makeTea (cups, tea){
+    console.log('Breawing ' + cups + ' cups of' + tea);
+}
+let guests = 2;
+makeTea(guests, 'Earl Grey');
 
-// function secret(){
-//     console.log('The secret of life is 28');
-// }
-// secret();
+function secret(){
+    console.log('The secret of life is 28');
+}
+secret();
